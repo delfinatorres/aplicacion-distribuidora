@@ -1,0 +1,71 @@
+﻿<Window x:Class="Aplicacion_Distribuidora.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Opti-Bubbly - Iniciar Sesión"
+        Height="400" Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Background="#1E1E2E">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="350">
+
+            <!-- Título -->
+            <TextBlock 
+                       FontSize="32" FontWeight="Bold" 
+                       Foreground="#CBA6F7"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,5"><Run Language="es-ar" Text="Ventas"/></TextBlock>
+
+            <TextBlock Text="Distribuidora Elsa María" 
+                       FontSize="14"
+                       Foreground="#A6ADC8"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,30"/>
+
+            <!-- Usuario -->
+            <TextBlock Text="Usuario" 
+                       Foreground="#CDD6F4" 
+                       Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtUsuario"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"/>
+
+            <!-- Contraseña -->
+            <TextBlock Text="Contraseña" 
+                       Foreground="#CDD6F4" 
+                       Margin="0,15,0,5"/>
+            <PasswordBox x:Name="TxtContrasena"
+                         Height="40" Padding="10"
+                         FontSize="14"
+                         Background="#313244"
+                         Foreground="#CDD6F4"
+                         BorderBrush="#CBA6F7"
+                         BorderThickness="1"/>
+
+            <!-- Botón -->
+            <Button x:Name="BtnIngresar"
+                    Content="Ingresar"
+                    Height="45"
+                    Margin="0,25,0,0"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Background="#CBA6F7"
+                    Foreground="#1E1E2E"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="BtnIngresar_Click"/>
+
+            <!-- Mensaje de error -->
+            <TextBlock x:Name="TxtError"
+                       Foreground="#F38BA8"
+                       FontSize="13"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,0"
+                       Visibility="Collapsed"/>
+        </StackPanel>
+    </Grid>
+</Window>

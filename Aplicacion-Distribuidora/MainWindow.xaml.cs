@@ -1,24 +1,49 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using Aplicacion_Distribuidora.Models;
+using Aplicacion_Distribuidora.Views;
 
 namespace Aplicacion_Distribuidora
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private Vendedor _vendedorActual;
+
+        public MainWindow(Vendedor vendedor)
         {
             InitializeComponent();
+            _vendedorActual = vendedor;
+            TxtBienvenida.Text = $"Bienvenido, {vendedor.Nombre} {vendedor.Apellido}";
+
+            if (vendedor.Rol == "Vendedor")
+            {
+                BtnReportes.Visibility = Visibility.Collapsed;
+            }
+        }
+
+        private void BtnClientes_Click(object sender, RoutedEventArgs e)
+        {
+            var ventana = new RegistrarClienteWindow();
+            ventana.ShowDialog();
+        }
+
+        private void BtnPedidos_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Módulo de Pedidos en construcción.");
+        }
+
+        private void BtnStock_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Módulo de Stock en construcción.");
+        }
+
+        private void BtnPagos_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Módulo de Pagos en construcción.");
+        }
+
+        private void BtnReportes_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Módulo de Reportes en construcción.");
         }
     }
 }

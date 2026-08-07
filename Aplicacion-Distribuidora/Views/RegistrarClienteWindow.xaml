@@ -1,0 +1,131 @@
+﻿<Window x:Class="Aplicacion_Distribuidora.Views.RegistrarClienteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registrar Cliente - Distribuidora Elsa María"
+        Height="694" Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Background="#1E1E2E" Margin="30">
+        <StackPanel>
+
+            <!-- Título -->
+            <TextBlock Text="Registrar Nuevo Cliente"
+                       FontSize="24" FontWeight="Bold"
+                       Foreground="#CBA6F7"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,30"/>
+
+            <!-- Nombre -->
+            <TextBlock Text="Nombre" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtNombre"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Apellido -->
+            <TextBlock Text="Apellido" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtApellido"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Telefono -->
+            <TextBlock Text="Teléfono" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtTelefono"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Direccion -->
+            <TextBlock Text="Dirección" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtDireccion"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- DNI -->
+            <TextBlock Text="DNI" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtDNI"
+                    Height="40" Padding="10"
+                    FontSize="14"
+                    Background="#313244"
+                    Foreground="#CDD6F4"
+                    BorderBrush="#CBA6F7"
+                    BorderThickness="1"
+                    Margin="0,0,0,15"/>
+
+            <!-- Forma de Pago -->
+            <TextBlock Text="Forma de Pago" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <ComboBox x:Name="CmbFormaPago"
+                      Height="40"
+                      FontSize="14"
+                      Background="#313244"
+                      Foreground="#CDD6F4"
+                      BorderBrush="#CBA6F7"
+                      BorderThickness="1"
+                      Margin="0,0,0,25">
+                <ComboBoxItem Content="Contado"/>
+                <ComboBoxItem Content="CuentaCorriente"/>
+            </ComboBox>
+
+            <!-- Botones -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="BtnGuardar"
+                        Content="Guardar"
+                        Grid.Column="0"
+                        Height="45"
+                        Margin="0,0,10,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Background="#CBA6F7"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnGuardar_Click"/>
+
+                <Button x:Name="BtnCancelar"
+                        Content="Cancelar"
+                        Grid.Column="1"
+                        Height="45"
+                        Margin="10,0,0,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Background="#F38BA8"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnCancelar_Click"/>
+            </Grid>
+
+            <!-- Mensaje -->
+            <TextBlock x:Name="TxtMensaje"
+                       FontSize="13"
+                       HorizontalAlignment="Center"
+                       Margin="0,15,0,0"
+                       Visibility="Collapsed"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
