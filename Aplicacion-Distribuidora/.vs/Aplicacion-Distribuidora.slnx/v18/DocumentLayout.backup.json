@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\boleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:models\\boleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Migrations\\20260807015216_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260807015216_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,102 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Boleta.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Boleta.cs",
-              "RelativeDocumentMoniker": "Models\\Boleta.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Boleta.cs",
-              "RelativeToolTip": "Models\\Boleta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20260807015216_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Migrations\\20260807015216_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260807015216_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Migrations\\20260807015216_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260807015216_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:31:39.053Z",
+              "WhenOpened": "2026-08-07T01:52:17.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Pago.cs",
-              "RelativeDocumentMoniker": "Models\\Pago.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Pago.cs",
-              "RelativeToolTip": "Models\\Pago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:31:15.32Z",
+              "WhenOpened": "2026-08-07T01:41:16.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DetallePedido.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\DetallePedido.cs",
-              "RelativeDocumentMoniker": "DetallePedido.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\DetallePedido.cs",
-              "RelativeToolTip": "DetallePedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:30:52.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Pedido.cs",
-              "RelativeToolTip": "Models\\Pedido.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:30:12.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vendedor.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Vendedor.cs",
-              "RelativeDocumentMoniker": "Models\\Vendedor.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Vendedor.cs",
-              "RelativeToolTip": "Models\\Vendedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:29:48.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:29:23.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Cliente.cs",
               "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA2wBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T01:28:50.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -153,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -161,7 +93,8 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:21:44.195Z"
+              "WhenOpened": "2026-08-07T01:21:44.195Z",
+              "EditorCaption": ""
             }
           ]
         }
