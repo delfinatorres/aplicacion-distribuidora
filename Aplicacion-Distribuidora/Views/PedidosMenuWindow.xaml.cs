@@ -17,7 +17,8 @@ namespace Aplicacion_Distribuidora.Views
 
         private void BtnConsultarEstado_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo Consultar Estado en construcción.");
+            var ventana = new ConsultarEstadoPedidoWindow();
+            ventana.ShowDialog();
         }
 
         private void BtnHistorial_Click(object sender, RoutedEventArgs e)
