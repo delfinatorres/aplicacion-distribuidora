@@ -40,7 +40,8 @@ namespace Aplicacion_Distribuidora
 
         private void BtnPagos_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo de Pagos en construcción.");
+            var ventana = new PagosMenuWindow();
+            ventana.ShowDialog();
         }
 
         private void BtnReportes_Click(object sender, RoutedEventArgs e)
