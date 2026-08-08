@@ -46,7 +46,8 @@ namespace Aplicacion_Distribuidora
 
         private void BtnReportes_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo de Reportes en construcción.");
+            var ventana = new ReportesWindow();
+            ventana.ShowDialog();
         }
     }
 }

@@ -26,7 +26,7 @@
 
             <Button x:Name="BtnPedidos"
                     Content="📋 Pedidos"
-                    Width="180" Height="120"
+                    Width="140" Height="90"
                     Margin="15" FontSize="18"
                     Background="#313244"
                     Foreground="#CDD6F4"
@@ -36,8 +36,7 @@
 
             <Button x:Name="BtnClientes"
                     Content="👤 Clientes"
-                    Width="180" Height="120"
-                    Margin="15" FontSize="18"
+                    Width="140" Height="90" FontSize="18"
                     Background="#313244"
                     Foreground="#CDD6F4"
                     BorderThickness="0"
@@ -46,18 +45,17 @@
 
             <Button x:Name="BtnStock"
                     Content="📦 Stock"
-                    Width="180" Height="120"
+                    Width="140" Height="90"
                     Margin="15" FontSize="18"
                     Background="#313244"
                     Foreground="#CDD6F4"
                     BorderThickness="0"
                     Cursor="Hand"
                     Click="BtnStock_Click"/>
-
             <Button x:Name="BtnPagos"
                     Content="💰 Pagos"
-                    Width="180" Height="120"
-                    Margin="15" FontSize="18"
+                    Width="140" Height="90"
+                    FontSize="18"
                     Background="#313244"
                     Foreground="#CDD6F4"
                     BorderThickness="0"
@@ -66,7 +64,7 @@
 
             <Button x:Name="BtnReportes"
                     Content="📊 Reportes"
-                    Width="180" Height="120"
+                    Width="140" Height="90"
                     Margin="15" FontSize="18"
                     Background="#313244"
                     Foreground="#CDD6F4"

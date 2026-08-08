@@ -1,0 +1,167 @@
+﻿<Window x:Class="Aplicacion_Distribuidora.Views.ReportesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reportes - Distribuidora Elsa María"
+        Height="650" Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#1E1E2E" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Título -->
+        <TextBlock Grid.Row="0"
+                   Text="Reportes de Ventas"
+                   FontSize="24" FontWeight="Bold"
+                   Foreground="#CBA6F7"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+        <!-- Filtros -->
+        <Grid Grid.Row="1" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="0,0,10,0">
+                <TextBlock Text="Desde" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+                <DatePicker x:Name="DtpDesde"
+                            Height="40"
+                            Background="#313244"
+                            Foreground="#CDD6F4"
+                            BorderBrush="#CBA6F7"
+                            BorderThickness="1"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="0,0,10,0">
+                <TextBlock Text="Hasta" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+                <DatePicker x:Name="DtpHasta"
+                            Height="40"
+                            Background="#313244"
+                            Foreground="#CDD6F4"
+                            BorderBrush="#CBA6F7"
+                            BorderThickness="1"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Margin="0,0,10,0">
+                <TextBlock Text="Estado" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+                <ComboBox x:Name="CmbEstado"
+                          Height="40"
+                          FontSize="14"
+                          Background="#313244"
+                          Foreground="#CDD6F4"
+                          BorderBrush="#CBA6F7"
+                          BorderThickness="1">
+                    <ComboBoxItem Content="Todos" IsSelected="True"/>
+                    <ComboBoxItem Content="Registrado"/>
+                    <ComboBoxItem Content="Entregado"/>
+                    <ComboBoxItem Content="Pagado"/>
+                    <ComboBoxItem Content="Cancelado"/>
+                </ComboBox>
+            </StackPanel>
+
+            <Button x:Name="BtnGenerar"
+                    Grid.Column="3"
+                    Content="Generar"
+                    Height="40"
+                    VerticalAlignment="Bottom"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Background="#CBA6F7"
+                    Foreground="#1E1E2E"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="BtnGenerar_Click"/>
+        </Grid>
+
+        <!-- Resumen -->
+        <Grid Grid.Row="2" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="#313244"
+                    BorderBrush="#CBA6F7" BorderThickness="1"
+                    Padding="15" Margin="0,0,10,0">
+                <StackPanel>
+                    <TextBlock Text="Total Pedidos"
+                               Foreground="#A6ADC8"
+                               FontSize="13"/>
+                    <TextBlock x:Name="TxtTotalPedidos"
+                               Foreground="#CBA6F7"
+                               FontSize="22"
+                               FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="1" Background="#313244"
+                    BorderBrush="#CBA6F7" BorderThickness="1"
+                    Padding="15" Margin="0,0,10,0">
+                <StackPanel>
+                    <TextBlock Text="Total Ventas"
+                               Foreground="#A6ADC8"
+                               FontSize="13"/>
+                    <TextBlock x:Name="TxtTotalVentas"
+                               Foreground="#A6E3A1"
+                               FontSize="22"
+                               FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="2" Background="#313244"
+                    BorderBrush="#CBA6F7" BorderThickness="1"
+                    Padding="15">
+                <StackPanel>
+                    <TextBlock Text="Total Deuda CC"
+                               Foreground="#A6ADC8"
+                               FontSize="13"/>
+                    <TextBlock x:Name="TxtTotalDeuda"
+                               Foreground="#F38BA8"
+                               FontSize="22"
+                               FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Tabla -->
+        <DataGrid Grid.Row="3"
+                  x:Name="DgReporte"
+                  Background="#313244"
+                  Foreground="#CDD6F4"
+                  BorderBrush="#CBA6F7"
+                  BorderThickness="1"
+                  RowBackground="#313244"
+                  AlternatingRowBackground="#45475A"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserResizeColumns="True">
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#CBA6F7"/>
+                    <Setter Property="Foreground" Value="#1E1E2E"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Padding" Value="10,5"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="N° Pedido" Binding="{Binding Id}" Width="90"/>
+                <DataGridTextColumn Header="Cliente" Binding="{Binding Cliente.Nombre}" Width="150"/>
+                <DataGridTextColumn Header="Fecha" Binding="{Binding Fecha, StringFormat=dd/MM/yyyy}" Width="100"/>
+                <DataGridTextColumn Header="Estado" Binding="{Binding Estado}" Width="120"/>
+                <DataGridTextColumn Header="Forma de Pago" Binding="{Binding FormaDePago}" Width="130"/>
+                <DataGridTextColumn Header="Total" Binding="{Binding Total, StringFormat=\{0:C\}}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
