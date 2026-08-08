@@ -23,7 +23,8 @@ namespace Aplicacion_Distribuidora.Views
 
         private void BtnHistorial_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo Historial de Pedidos en construcción.");
+            var ventana = new HistorialPedidosWindow();
+            ventana.ShowDialog();
         }
 
         private void BtnVolver_Click(object sender, RoutedEventArgs e)
