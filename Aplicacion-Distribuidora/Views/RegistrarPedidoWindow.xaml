@@ -1,0 +1,203 @@
+﻿<Window x:Class="Aplicacion_Distribuidora.Views.RegistrarPedidoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registrar Pedido - Distribuidora Elsa María"
+        Height="700" Width="600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Background="#1E1E2E" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Título -->
+        <TextBlock Grid.Row="0"
+                   Text="Registrar Pedido"
+                   FontSize="24" FontWeight="Bold"
+                   Foreground="#CBA6F7"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+        <!-- Datos del cliente -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,15">
+            <TextBlock Text="Buscar Cliente" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="TxtBuscarCliente"
+                         Grid.Column="0"
+                         Height="40" Padding="10"
+                         FontSize="14"
+                         Background="#313244"
+                         Foreground="#CDD6F4"
+                         BorderBrush="#CBA6F7"
+                         BorderThickness="1"
+                         Margin="0,0,10,0"/>
+                <Button x:Name="BtnBuscarCliente"
+                        Grid.Column="1"
+                        Content="Buscar"
+                        Height="40"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="#CBA6F7"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnBuscarCliente_Click"/>
+            </Grid>
+
+            <TextBlock x:Name="TxtInfoCliente"
+                       Foreground="#A6E3A1"
+                       FontSize="13"
+                       Margin="0,8,0,0"
+                       Visibility="Collapsed"/>
+        </StackPanel>
+
+        <!-- Forma de pago y entrega -->
+        <Grid Grid.Row="2" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="0,0,10,0">
+                <TextBlock Text="Forma de Pago" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+                <ComboBox x:Name="CmbFormaPago"
+                          Height="40"
+                          FontSize="14"
+                          Background="#313244"
+                          Foreground="#CDD6F4"
+                          BorderBrush="#CBA6F7"
+                          BorderThickness="1">
+                    <ComboBoxItem Content="Contado"/>
+                    <ComboBoxItem Content="CuentaCorriente"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                <TextBlock Text="Tipo de Entrega" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+                <ComboBox x:Name="CmbTipoEntrega"
+                          Height="40"
+                          FontSize="14"
+                          Background="#313244"
+                          Foreground="#CDD6F4"
+                          BorderBrush="#CBA6F7"
+                          BorderThickness="1">
+                    <ComboBoxItem Content="Envio"/>
+                    <ComboBoxItem Content="Retiro"/>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <!-- Productos -->
+        <StackPanel Grid.Row="3" Margin="0,0,0,15">
+            <TextBlock Text="Agregar Productos" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox x:Name="CmbProductos"
+                          Grid.Column="0"
+                          Height="40"
+                          FontSize="14"
+                          Background="#313244"
+                          Foreground="#CDD6F4"
+                          BorderBrush="#CBA6F7"
+                          BorderThickness="1"
+                          Margin="0,0,10,0"/>
+
+                <TextBox x:Name="TxtCantidad"
+                         Grid.Column="1"
+                         Height="40" Padding="10"
+                         FontSize="14"
+                         Background="#313244"
+                         Foreground="#CDD6F4"
+                         BorderBrush="#CBA6F7"
+                         BorderThickness="1"
+                         Margin="0,0,10,0"
+                         Text="1"/>
+
+                <Button x:Name="BtnAgregarProducto"
+                        Grid.Column="2"
+                        Content="Agregar"
+                        Height="40"
+                        FontSize="13"
+                        FontWeight="Bold"
+                        Background="#CBA6F7"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnAgregarProducto_Click"/>
+            </Grid>
+
+            <DataGrid x:Name="DgProductosPedido"
+                      Height="150"
+                      Background="#313244"
+                      Foreground="#CDD6F4"
+                      BorderBrush="#CBA6F7"
+                      BorderThickness="1"
+                      RowBackground="#313244"
+                      AlternatingRowBackground="#45475A"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Producto" Binding="{Binding NombreProducto}" Width="200"/>
+                    <DataGridTextColumn Header="Cantidad" Binding="{Binding Cantidad}" Width="80"/>
+                    <DataGridTextColumn Header="Precio Unit." Binding="{Binding PrecioUnitario, StringFormat=\{0:C\}}" Width="100"/>
+                    <DataGridTextColumn Header="Subtotal" Binding="{Binding Subtotal, StringFormat=\{0:C\}}" Width="100"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <TextBlock x:Name="TxtTotal"
+                       Foreground="#CBA6F7"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Right"
+                       Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <!-- Botones -->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BtnConfirmar"
+                    Content="Confirmar Pedido"
+                    Grid.Column="0"
+                    Height="45"
+                    Margin="0,0,10,0"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Background="#CBA6F7"
+                    Foreground="#1E1E2E"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="BtnConfirmar_Click"/>
+
+            <Button x:Name="BtnCancelar"
+                    Content="Cancelar"
+                    Grid.Column="1"
+                    Height="45"
+                    Margin="10,0,0,0"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Background="#F38BA8"
+                    Foreground="#1E1E2E"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="BtnCancelar_Click"/>
+        </Grid>
+    </Grid>
+</Window>

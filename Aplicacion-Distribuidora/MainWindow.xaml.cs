@@ -28,7 +28,8 @@ namespace Aplicacion_Distribuidora
 
         private void BtnPedidos_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo de Pedidos en construcción.");
+            var ventana = new PedidosMenuWindow();
+            ventana.ShowDialog();
         }
 
         private void BtnStock_Click(object sender, RoutedEventArgs e)

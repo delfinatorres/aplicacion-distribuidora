@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\views\\pedidosmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:views\\pedidosmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\views\\registrarpedidowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:views\\registrarpedidowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\views\\registrarpedidowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:views\\registrarpedidowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\views\\pedidosmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|solutionrelative:views\\pedidosmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04FC1F4D-CDF4-0FB0-2D51-B3909C72EBB2}|Aplicacion-Distribuidora.csproj|c:\\users\\delfi\\aplicacion-distribuidora\\aplicacion-distribuidora\\views\\stockmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -79,31 +95,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StockMenuWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\StockMenuWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\StockMenuWindow.xaml",
-              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\StockMenuWindow.xaml",
-              "RelativeToolTip": "Views\\StockMenuWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-07T16:51:34.353Z",
+              "Title": "RegistrarPedidoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarPedidoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegistrarPedidoWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarPedidoWindow.xaml.cs",
+              "RelativeToolTip": "Views\\RegistrarPedidoWindow.xaml.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAkwN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T04:37:19.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PedidosMenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\PedidosMenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PedidosMenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\PedidosMenuWindow.xaml.cs",
+              "RelativeToolTip": "Views\\PedidosMenuWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T04:34:58.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrarPedidoWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarPedidoWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\RegistrarPedidoWindow.xaml",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarPedidoWindow.xaml",
+              "RelativeToolTip": "Views\\RegistrarPedidoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-08T04:36:28.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T01:21:44.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "PedidosMenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\PedidosMenuWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\PedidosMenuWindow.xaml",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\PedidosMenuWindow.xaml",
+              "RelativeToolTip": "Views\\PedidosMenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-08T04:34:28.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StockMenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\StockMenuWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\StockMenuWindow.xaml",
+              "ToolTip": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\StockMenuWindow.xaml",
+              "RelativeToolTip": "Views\\StockMenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-07T16:51:34.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "StockMenuWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\StockMenuWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\StockMenuWindow.xaml.cs",
@@ -111,12 +176,11 @@
               "RelativeToolTip": "Views\\StockMenuWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA0wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T04:30:35.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-08T04:30:35.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ConsultarStockWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\ConsultarStockWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ConsultarStockWindow.xaml.cs",
@@ -128,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ConsultarStockWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\ConsultarStockWindow.xaml",
               "RelativeDocumentMoniker": "Views\\ConsultarStockWindow.xaml",
@@ -139,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RegistrarProductoWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarProductoWindow.xaml",
               "RelativeDocumentMoniker": "Views\\RegistrarProductoWindow.xaml",
@@ -150,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "RegistrarProductoWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarProductoWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\RegistrarProductoWindow.xaml.cs",
@@ -162,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "RegistrarClienteWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarClienteWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\RegistrarClienteWindow.xaml.cs",
@@ -174,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "RegistrarClienteWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\RegistrarClienteWindow.xaml",
               "RelativeDocumentMoniker": "Views\\RegistrarClienteWindow.xaml",
@@ -185,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -196,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -208,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\LoginWindow.xaml.cs",
@@ -220,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Views\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
@@ -231,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -243,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "20260807015216_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Migrations\\20260807015216_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260807015216_InitialCreate.cs",
@@ -255,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\aplicacion-distribuidora\\Aplicacion-Distribuidora\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
