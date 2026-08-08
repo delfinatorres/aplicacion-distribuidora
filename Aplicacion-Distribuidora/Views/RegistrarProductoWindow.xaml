@@ -1,0 +1,128 @@
+﻿<Window x:Class="Aplicacion_Distribuidora.Views.RegistrarProductoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registrar Producto - Distribuidora Elsa María"
+        Height="700" Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Background="#1E1E2E" Margin="30">
+        <StackPanel>
+
+            <!-- Título -->
+            <TextBlock Text="Registrar Nuevo Producto"
+                       FontSize="24" FontWeight="Bold"
+                       Foreground="#CBA6F7"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,30"/>
+
+            <!-- Código -->
+            <TextBlock Text="Código" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtCodigo"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Nombre -->
+            <TextBlock Text="Nombre" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtNombre"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Marca -->
+            <TextBlock Text="Marca" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtMarca"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Categoria -->
+            <TextBlock Text="Categoría" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <ComboBox x:Name="CmbCategoria"
+                      Height="40"
+                      FontSize="14"
+                      Background="#313244"
+                      Foreground="#CDD6F4"
+                      BorderBrush="#CBA6F7"
+                      BorderThickness="1"
+                      Margin="0,0,0,15">
+                <ComboBoxItem Content="Gaseosa"/>
+                <ComboBoxItem Content="Agua"/>
+                <ComboBoxItem Content="Cerveza"/>
+                <ComboBoxItem Content="Jugo"/>
+                <ComboBoxItem Content="Energizante"/>
+                <ComboBoxItem Content="Otro"/>
+            </ComboBox>
+
+            <!-- Precio -->
+            <TextBlock Text="Precio" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtPrecio"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,15"/>
+
+            <!-- Stock -->
+            <TextBlock Text="Stock inicial" Foreground="#CDD6F4" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtStock"
+                     Height="40" Padding="10"
+                     FontSize="14"
+                     Background="#313244"
+                     Foreground="#CDD6F4"
+                     BorderBrush="#CBA6F7"
+                     BorderThickness="1"
+                     Margin="0,0,0,25"/>
+
+            <!-- Botones -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="BtnGuardar"
+                        Content="Guardar"
+                        Grid.Column="0"
+                        Height="45"
+                        Margin="0,0,10,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Background="#CBA6F7"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnGuardar_Click"/>
+
+                <Button x:Name="BtnCancelar"
+                        Content="Cancelar"
+                        Grid.Column="1"
+                        Height="45"
+                        Margin="10,0,0,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Background="#F38BA8"
+                        Foreground="#1E1E2E"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="BtnCancelar_Click"/>
+            </Grid>
+
+        </StackPanel>
+    </Grid>
+</Window>

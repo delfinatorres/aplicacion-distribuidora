@@ -33,7 +33,8 @@ namespace Aplicacion_Distribuidora
 
         private void BtnStock_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Módulo de Stock en construcción.");
+            var ventana = new StockMenuWindow();
+            ventana.ShowDialog();
         }
 
         private void BtnPagos_Click(object sender, RoutedEventArgs e)
